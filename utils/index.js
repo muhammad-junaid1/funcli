@@ -4,9 +4,11 @@ import chalk from "chalk";
 import boxen from "boxen";
 import ora from "ora";
 import jokes from "../data/jokes.js";
+import facts from "../data/facts.js";
 
 const emojis = {
   joke: ["😂", "🤣", "😁", "😅", "😆", "😹", "🤪"],
+  fact: ["📚", "🧐", "🧠", "💡", "🌐", "📊", "🧪"],
 };
 
 const log = (text, type) => {
@@ -25,7 +27,8 @@ const log = (text, type) => {
 export default async function showData(type, category) {
   const spinner = ora(`Loading a ${type}`).start();
      const imports = {
-        joke: jokes
+        joke: jokes, 
+        fact: facts
      };
       const content = imports[type];
       setTimeout(() => {

@@ -43,6 +43,13 @@ const allChoices = {
     "Science",
     "Dad",
   ],
+  fact: [
+    "Programming", 
+    "Animal", 
+    "Science", 
+    "Relationship", 
+    "History"
+  ]
 };
 
 const cli = () => {
