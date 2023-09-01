@@ -1,0 +1,32 @@
+{
+  "name": "@mjunaid/funcli",
+  "version": "2.0.0",
+  "description": "NPM package to say bye-bye to boredom, without leaving the terminal!",
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "type": "module",
+  "bin": {
+    "funcli": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fun",
+    "jokes",
+    "quotes",
+    "quiz",
+    "facts"
+  ],
+  "author": "muhammad-junaid1",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.10",
+    "ora": "^7.0.1"
+  }
+}
